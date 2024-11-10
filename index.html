@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes vidéos YouTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1000px;
+            width: 100%;
+        }
+        .video {
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 300px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 8px;
+        }
+        .video h2 {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur ma page de vidéos YouTube</h1>
+        <p>Retrouvez toutes mes dernières vidéos ci-dessous</p>
+    </header>
+
+    <div class="container">
+        <!-- Première vidéo -->
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X1SP5aF0ioc?si=oz_JzP-E6G2JpqUJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" allowfullscreen></iframe>
+            <h2>Titre de la vidéo 1</h2>
+        </div>
+        
+        <!-- Deuxième vidéo -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/r5WW8l-ybB8" allowfullscreen></iframe>
+            <h2>Titre de la vidéo 2</h2>
+        </div>
+        
+        <!-- Troisième vidéo -->
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/l3Dl7XVoGFI" allowfullscreen></iframe>
+            <h2>Titre de la vidéo 3</h2>
+        </div>
+
+        <!-- Ajoutez d'autres vidéos de la même manière -->
+    </div>
+
+</body>
+</html>
